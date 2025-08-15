@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anara Acessórios</title>
+    <style>
+        :root {
+            --rosa-claro: #fcdce0;
+            --dourado: #b28b40;
+            --bege-claro: #fff8f0;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: var(--rosa-claro);
+            color: var(--dourado);
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: var(--dourado);
+            margin-bottom: 5px;
+        }
+
+        .slogan {
+            font-style: italic;
+        }
+
+        nav {
+            background-color: var(--bege-claro);
+            padding: 15px;
+            text-align: center;
+            border-top: 1px solid var(--dourado);
+            border-bottom: 1px solid var(--dourado);
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: var(--dourado);
+            font-weight: bold;
+        }
+
+        .produtos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .produto {
+            width: 200px;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .produto img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .btn-comprar {
+            background-color: var(--dourado);
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: var(--bege-claro);
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            border-top: 1px solid var(--dourado);
+        }
+
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+        <header style="text-align: center; padding: 20px 0;">
+    <img src="https://i.ibb.co/Lh5R4HZt/1755272559675-1.png" 
+         alt="Logo Anara" 
+         style="height: 120px; border: none; display: block; margin: 0 auto;">
+    <p style="font-style: italic; margin-top: 10px;">Acessórios que combinam com você</p>
+</header> 
+
+    <nav>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="produtos" class="produtos">
+        <div class="produto">
+            <img src="https://i.ibb.co/84jTTw2F/4970117450804866603.jpg">
+            <h3>Mini argola</h3>
+            <p>R$ 15,50</p>
+            <button class="btn-comprar" onclick="window.open('https://wa.me/5516988601574?text=Olá! Quero comprar a mini argola', '_blank')">Comprar</button>
+        </div>
+
+        <div class="produto">
+            <img src="https://i.ibb.co/nNLy6Rcr/4970117450804866604.jpg"alt="Pulseira"> 
+            <h3>Colar duplo folheado a ouro 18k</h3>
+            <p>R$ 30,00</p>
+            <button class="btn-comprar" onclick="window.open('https://wa.me/5516988601574?text=Olá! Quero comprar Colar duplo folheado a ouro 18k', '_blank')">Comprar</button>
+        </div>
+
+        <div class="produto">
+            <img src="https://i.ibb.co/F4r8DzHG/4970117450804866605-1.jpg" alt="Colares"
+            <h3>Colares folheados a ouro 18k</h3>
+            <p>R$ 23,00</p>
+            <button class="btn-comprar" onclick="window.open('https://wa.me/5516988601574?text=Olá! Quero comprar Colar folheado a ouro 18k', '_blank')">Comprar</button>
+        </div>
+    </section>
+
+    <section id="sobre" style="padding: 20px; text-align: center;">
+<h2>Sobre Nós</h2>
+        <p>Na Anara Acessórios, criamos peças especiais para valorizar seu estilo único.</p>
+    </section>
+
+    <section id="contato" style="padding: 20px; text-align: center;">
+        <h2>Contato</h2>
+        <p>WhatsApp: <a href="https://wa.me/5516988601574" target="_blank" style="color: var(--dourado);">(16) 98860-1574</a></p>
+        <p>Instagram:<a href="https://www.instagram.com/anarabrandstore?igsh=dzhlMXM2czNyajd6" target="_blank" style="color: #b28b40; text-decoration: none;">@anarabrandstore</a></p>
+
+    </section>
+
+    <footer>
+        © 2023 Anara Acessórios - Todos os direitos reservados
+    </footer>
+
+    <a href="https://wa.me/5516988601574" class="whatsapp" target="_blank">💬</a>
+</body>
+</html>
